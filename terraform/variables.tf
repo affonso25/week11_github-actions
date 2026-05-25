@@ -16,6 +16,6 @@ variable "key_name" {
 }
 
 variable "db_password" {
-  description = "Database password"
-  type        = string
+  type    = string
+  default = "Password123!"
 }
