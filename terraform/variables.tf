@@ -13,6 +13,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 Key Pair name"
   type        = string
+  default = "test-key"
 }
 
 variable "db_password" {
