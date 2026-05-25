@@ -37,7 +37,7 @@ data "aws_subnets" "default" {
 
 # Security Group for EC2
 resource "aws_security_group" "web_sg" {
-  name        = "week7-web-sg"
+  name        = "week11-web-sg"
   description = "Security group for Week 7 EC2 instance"
   vpc_id      = data.aws_vpc.default.id
 
